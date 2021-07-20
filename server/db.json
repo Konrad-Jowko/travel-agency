@@ -1,0 +1,97 @@
+{
+  "orders": [
+    {
+      "car-rental": "suv",
+      "accommodation": "hotel",
+      "features": [
+        "all-inclusive",
+        "kitchen"
+      ],
+      "adults": "4",
+      "children": "2",
+      "name": "Konrad",
+      "contact": "125368958",
+      "start-date": "2021-07-21T19:08:36.000Z",
+      "totalCost": "$261,404",
+      "id": 1
+    },
+    {
+      "car-rental": "full",
+      "accommodation": "house",
+      "features": [
+        "all-inclusive"
+      ],
+      "adults": "2",
+      "children": 0,
+      "name": "Adam",
+      "contact": "77777777777",
+      "start-date": "2021-07-18T19:14:24.000Z",
+      "totalCost": "$105,362",
+      "id": 2
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "id": 3
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "id": 4
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "tripName": "Pleasant trek in outstanding Togo",
+      "id": 5
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "Test",
+      "contact": "TestofLimits",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "tripName": "Pleasant trek in outstanding Togo",
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "id": 6
+    },
+    {
+      "car-rental": "",
+      "accommodation": "hotel",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "SecondTest",
+      "contact": "Test",
+      "start-date": "",
+      "totalCost": "$29,319",
+      "tripName": "Pleasant trek in outstanding Togo",
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "id": 7
+    }
+  ]
+}

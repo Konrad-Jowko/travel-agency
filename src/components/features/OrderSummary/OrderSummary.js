@@ -6,9 +6,6 @@ import {formatPrice} from '../../../utils/formatPrice';
 import styles from './OrderSummary.scss';
 
 const OrderSummary = ({options, tripCost}) => (
-
-
-
   <h2 className={styles.component}>
    Total: <strong> {formatPrice(calculateTotal(tripCost, options))} </strong>
   </h2>

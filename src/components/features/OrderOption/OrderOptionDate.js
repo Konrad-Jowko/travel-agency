@@ -5,10 +5,13 @@ import 'react-datepicker/dist/react-datepicker-cssmodules.css';
 import styles from './OrderOption.scss';
 
 const OrderOptionDate = ({setOptionValue}) => {
-  const [startDate] = useState(new Date());
+  const [startDate, setStartDate] = useState(new Date());
 
   return (
-    <DatePicker className={styles.input} selected={startDate} onChange={value => setOptionValue(value)} showTimeSelect />
+    <DatePicker className={styles.input} selected={startDate} onChange={(value) => {
+      setOptionValue(value);
+      setStartDate(value);
+    }} showTimeSelect />
   );
 };
 
