@@ -1,0 +1,8 @@
+@import '../../../styles/settings.scss';
+
+.contact {
+  text-align: right;
+  span {
+    padding-left: $base-size;
+  }
+}
